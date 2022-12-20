@@ -1,0 +1,23 @@
+{
+  "name": "standmol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanchesIH/standmol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanchesIH/standmol/issues"
+  },
+  "homepage": "https://github.com/SanchesIH/standmol#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
