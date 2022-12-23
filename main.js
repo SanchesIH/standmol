@@ -1,6 +1,12 @@
 const { app, BrowserWindow, electron } = require('electron');
 const ipc = require("electron").ipcMain;
 
+
+// Enable live reload for Electron
+require('electron-reload')(__dirname, {
+    electron: require(`${__dirname}/node_modules/electron`)
+});
+
 const createWindow = () => {
         // Create the browser window.
         const mainWindow = new BrowserWindow({
